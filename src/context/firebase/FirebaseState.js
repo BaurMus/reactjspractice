@@ -33,7 +33,7 @@ export const FirebaseState = ({children}) => {
   const addNote = async title => {
     const note = {
       title,
-      data: new Date().toJSON(),
+      date: new Date().toJSON(),
     };
 
     try {
