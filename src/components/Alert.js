@@ -16,7 +16,7 @@ export const Alert = () => {
       mountOnEnter
       unmountOnExit
     >
-      <div className={`alert alert-${alert.type || 'warning'} alert-dismissible`} role="alert">
+      <div className={`alert alert-${alert.type || 'warning'} alert-dismissible`} >
         <strong>Внимание!</strong> 
         &nbsp;{alert.text}
         <button onClick={hide} type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close">

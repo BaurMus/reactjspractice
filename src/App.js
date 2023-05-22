@@ -16,7 +16,7 @@ function App() {
           <div className="container pt-4">
             <Alert />
             <Routes>
-              <Route path='/' exact element={<Home />}/>
+              <Route path='/'  element={<Home />}/>
               <Route path='/about' element={<About />}/>
             </Routes>
           </div>
